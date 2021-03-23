@@ -1,3 +1,15 @@
+## Print the pattern
+
+Input: PROGRAM
+Output:
+
+			G
+		      GR
+		    GRA
+		 GRAM
+               GRAMP
+	     GRAMPR
+	  GRAMPRO
 #include<stdio.h>
 #include<string.h>
 int main()
