@@ -1,3 +1,18 @@
+## Save the string “WELCOMETOZOHOCORPORATION” in a two dimensional array and search 
+for substring like “too” in the two dimensional string both from left to right and from top to bottom.
+w e L C O
+M E T O Z
+O H O C O
+R P O R A
+T I O n 
+And print the start and ending index as
+Start index : <1,2>
+End index: <3, 2>
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -39,8 +54,8 @@ int main()
 				end_ind = j;
 		 	if(str[start_ind+1][end_ind] == 'O' && str[start_ind+2][end_ind] == 'O')
 			{
-				printf("<%d %d>\n",start_ind,end_ind);
-				printf("<%d %d>",start_ind+2,end_ind);
+				printf("Start Index:<%d, %d>\n",start_ind,end_ind);
+				printf("End Index:<%d, %d>",start_ind+2,end_ind);
 			}
 				
 			}
@@ -57,8 +72,8 @@ int main()
 				end_ind = j;
 				if(str[start_ind][end_ind+1] == 'O' && str[start_ind][end_ind+2] == 'O' )
 				{
-					printf("<%d %d>\n",start_ind,end_ind);
-					printf("<%d %d>",start_ind,end_ind+2);
+					printf("Start Index:<%d, %d>\n",start_ind,end_ind);
+					printf("End Index:<%d, %d>",start_ind,end_ind+2);
 				}
 				exit(0);
 			}
