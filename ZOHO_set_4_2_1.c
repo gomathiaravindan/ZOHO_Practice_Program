@@ -1,3 +1,25 @@
+## Print the pattern
+Input N = 3 M = 3
+Output:
+  
+	XXX
+	X0X
+	XXX
+Input N = 6 M = 7
+	
+	XXXXXX
+	X0000X
+	X0XX0X
+	X0XX0X
+	X0XX0X
+	X0000X
+	XXXXXX
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
