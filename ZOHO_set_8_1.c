@@ -1,3 +1,21 @@
+## Spiral printing
+Sample Case: Input n = 4
+Output
+
+	4444444
+	4333334
+	4322234
+	4321234
+	4333334
+	4222234
+	4444444
+
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
