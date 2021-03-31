@@ -1,3 +1,15 @@
+## Given sorted array check if two numbers sum in it is a given 
+value
+Input
+Array = {1 3 4 8 10 } N = 7
+output
+true
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
