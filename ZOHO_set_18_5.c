@@ -38,9 +38,11 @@ int main()
 	}
 	printf("The maximum sum is: %d\n",msf);
 	printf("The elements are:");
+	printf("[");
 	for(i=ind1;i<=ind;i++)
 	{
 		printf("%d ",arr[i]);
 	}
+	printf("]");
 	return 0;
 }
