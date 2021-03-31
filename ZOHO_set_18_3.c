@@ -1,3 +1,13 @@
+## Compiuting value of sin (x)
+Input x = 30 n = 10
+output = 0.5
+Hint : The equation sin(x) = x – x^3 / 3! + x^5 / 5! – …. 
+
+
+
+
+
+
 #include<stdio.h>
 #include<math.h>
 int main()
