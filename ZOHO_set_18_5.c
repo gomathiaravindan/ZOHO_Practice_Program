@@ -1,3 +1,11 @@
+## Given array find maximum sum of contiguous sub array 
+{-2 -3 4 -1 -2 1 5 -3}
+output 7 elements [ 4 -1 -2 1 5] 
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
