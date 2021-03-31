@@ -23,7 +23,7 @@ int main()
 
 int prod(int a,int b)
 {
-	int prod = 0;
+	int prod = 0,i = 0;
 	if(a <= b)
 	{
 		while(i < a)
