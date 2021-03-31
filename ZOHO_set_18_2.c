@@ -27,7 +27,7 @@ int main()
 			max = arr[i];
 		}
 	}
-	int search[max+1];
+	int *search = (int*)calloc(max+1,sizeof(int));
 	
 	for(i=0;i<n;i++)
 	{
@@ -54,4 +54,6 @@ int main()
 		printf("true");
 	else
 		printf("false");
+	free(search);
+	return 0;
 }
