@@ -1,3 +1,11 @@
+## Adding a digit to all the digits of a number.
+Sample Case: Input digit = 4, number = 2875
+Output: 612119
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
