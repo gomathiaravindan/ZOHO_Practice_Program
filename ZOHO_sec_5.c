@@ -1,3 +1,15 @@
+## Check whether the 2 given strings are anagram or not
+Sample Case: Input hello
+holle
+Output Anagram
+Input: hlooe
+oiewq
+Output: Not a Anagram
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
