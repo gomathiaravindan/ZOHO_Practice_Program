@@ -1,3 +1,23 @@
+## Print the pattern
+Sample Case: Input PROGRAM
+Output
+   
+	    G
+	   GR
+	  GRA
+	 GRAM
+	GRAMP
+       GRAMPR
+      GRAMPRO
+   
+Input BASIC
+Output
+       S
+      SI
+     SIC
+    SICB
+   SICBA
+
 #include<stdio.h>
 #include<string.h>
 int main()
