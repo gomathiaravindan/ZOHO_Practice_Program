@@ -1,8 +1,16 @@
+## Reverse the 'k' set of numbers. If k less than n reverse the remaining elements.
+Sample Case: Input 2 1 3 5 8 6 7 9
+Output 3 1 2 6 8 5 9 7
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
 {
-	int n,i,k,j,l,*arr,left,right;
+	int n,i,k,*arr,left,right;
 	scanf("%d",&n);
 	
 	arr = (int*)malloc(n*sizeof(int));
