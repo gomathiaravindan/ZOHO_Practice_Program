@@ -1,3 +1,11 @@
+## Evaluate the given expression.
+Sample Case: Input 12345*+-+
+Output 6
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
