@@ -1,11 +1,31 @@
+## Given a family with extended family members, genders, person name, father name, and mother name. Find the people for a particular person to marry. Output Females for male inut and vice versa.
+Sample Case: Input
+<Ram,Male,Ramesh,Revathy>
+<Bavana,Female,Ramesh,Revathy>
+<Agilan,Male,Ram,Darshini>
+<Yamini,Female,Elango,Bavana>
+<Megala,Female,Elango,Bavana>
+
+Name: Agilan
+
+Output: Yamini, Megala
+
+
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 struct relations{
-	char person[30][30];
-	char gender[30][30];
-	char father[30][30];
-	char mother[30][30];
-	char children[30][30];
+	char person[30];
+	char gender[30];
+	char father[30];
+	char mother[30];
+	char children[30];
 	int gender_flag;
 }family[100];
 void person_can_marry(char *,int);
