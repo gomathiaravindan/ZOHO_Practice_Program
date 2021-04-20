@@ -53,22 +53,7 @@ int main()
 			}
 		}
 		
-		for(j = 0;j<n;j++)
-		{
-			if(arr[j] == i)
-			{
-				printf("%d %d",arr[j],j);
-				break;
-			}
-		}
-			for(j = 0;j<n1;j++)
-		{
-			if(arr1[j] == i)
-			{
-				printf("%d %d",arr1[j],j+1);
-				break;
-			}
-		}
+	
 	}
 	else
 	{
@@ -93,6 +78,12 @@ int main()
 			}
 		}
 		
+		
+		
+	}
+	
+	if(n > n1)
+	{
 		for(j = 0;j<n;j++)
 		{
 			if(arr[j] == i)
@@ -101,6 +92,9 @@ int main()
 				break;
 			}
 		}
+	}
+	else
+	{
 		for(j = 0;j<n1;j++)
 		{
 			if(arr1[j] == i)
