@@ -1,3 +1,11 @@
+## Find the extra element and its index.
+Sample Case: Input [10,20,30,12,5] [10,5,30,20]
+Output: 12 is the extra element in array 1 at index 4
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -88,7 +96,7 @@ int main()
 		{
 			if(arr[j] == i)
 			{
-				printf("%d %d",arr[j],j+1);
+				printf("%d is the extra element in the array 1 ar index %d",arr[j],j+1);
 				break;
 			}
 		}
@@ -99,7 +107,7 @@ int main()
 		{
 			if(arr1[j] == i)
 			{
-				printf("%d %d",arr1[j],j+1);
+				printf("%d is the extra element in the array 2 ar index %d",arr1[j],j+1);
 				break;
 			}
 		}
