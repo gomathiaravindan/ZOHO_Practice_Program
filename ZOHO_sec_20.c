@@ -1,7 +1,21 @@
+## Print the pattern.
+Sample Case: Input 5
+Output 1
+       1 1
+       1 2 1
+       1 3 3 1
+       1 4 6 4 1
+
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
-	int i,coeff = 1,n,j,k;
+	int i,coeff = 1,n,j;
 	
 	scanf("%d",&n);
 	
