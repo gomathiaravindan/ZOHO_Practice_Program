@@ -1,3 +1,19 @@
+## Remove the duplicate row from the matrix
+Sample Case: Input row = 4, column = 3
+	1 1 1
+	1 0 1
+	1 0 1
+	1 1 0
+Output
+1 1 1
+1 0 1
+1 1 0
+
+
+
+
+
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
