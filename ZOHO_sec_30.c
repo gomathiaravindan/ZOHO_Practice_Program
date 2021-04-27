@@ -1,3 +1,15 @@
+## Print the pattern.
+Sample Case: Input third
+Output t d
+       h r
+       i
+       h r
+       t d
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
