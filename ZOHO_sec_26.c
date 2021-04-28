@@ -1,3 +1,13 @@
+## Take a 2 or 3 digit input number, reverseit and add it to the original number until the obtained number is a palindrome or 5 iterations are completed.
+Sample Case: Input n = 32
+Output 55
+Input n = 39
+Output 363
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
