@@ -1,11 +1,17 @@
+## Form the number system with only 3 and 4. Find the nth number of the number system.
+
+
+
+
+
+
 #include<stdio.h>
 int main()
 {
-	int i,t = 1,flag,rem,temp,n,count= 0;
+	int i,t = 1,flag,rem,temp;
 	
-	printf("Enter the nth number to print:");
-	scanf("%d",&n);
-	while(t<1000 && count != n)
+	
+	while(t<1000)
 	{
 		temp = t;
 		flag = 1;
@@ -17,9 +23,9 @@ int main()
 				flag = 0;
 		}
 		if((temp == 3 || temp == 4) && flag == 1)
-			count++;
+			printf("%d",t);
 		t++;
 		
 	}
-	printf("%d",t);
+	
 }
