@@ -1,3 +1,16 @@
+## Print the following pattern
+Sample Case: Input 5
+Output 1
+       1 1
+       2 1
+       1 2 1 1
+       1 1 1 2 2 1
+
+
+
+
+
+
 #include<stdio.h>
 #include<string.h>
 int main()
